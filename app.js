@@ -11,6 +11,7 @@ let aiReady = true;
 /* ---------- 合并扩充话术库（replies2/replies3 在页面中先行加载） ---------- */
 if (typeof REPLIES2 !== 'undefined') REPLIES.push(...REPLIES2);
 if (typeof REPLIES3 !== 'undefined') REPLIES.push(...REPLIES3);
+if (typeof REPLIES4 !== 'undefined') REPLIES.push(...REPLIES4);
 /* ---------- 合并上海话场景与回复（replies_sh.js） ---------- */
 if (typeof SH_SCENARIOS !== 'undefined') SCENARIOS.push(...SH_SCENARIOS);
 if (typeof SH_REPLIES !== 'undefined') REPLIES.push(...SH_REPLIES);
